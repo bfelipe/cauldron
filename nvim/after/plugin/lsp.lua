@@ -5,6 +5,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({
     "clangd",
     "gopls",
+    "lua_ls",
     "pylsp",
     "rust_analyzer",
 })

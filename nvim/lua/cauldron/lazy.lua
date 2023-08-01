@@ -38,7 +38,4 @@ require('lazy').setup({
   -- Theme
   require("cauldron/plug/theme"),
 
-  -- Fugitive
-  require("cauldron/plug/fugitive"),
-
 })

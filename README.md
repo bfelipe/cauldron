@@ -1,7 +1,7 @@
 # Cauldron
 
 
-					    (
+			    (
 	                   )  )
 	               ______(____
 	              (___________)
@@ -27,7 +27,7 @@ Cauldron is a Neovim profile written entirely on lua, aiming to turn Neovim as c
 
 ## Requirement
 
-- Neovim v0.9.0
+- Neovim v0.9.4
 
 ## Plugins
 
@@ -48,7 +48,6 @@ These are the ones used in this project. Plugins may be added or removed over th
 	- cmp-nvim-lsp
 	- LuaSnip
 - ThePrimeagen/harpoon
-- vim-fugitive
 
 ## Usage
 

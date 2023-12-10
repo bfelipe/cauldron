@@ -25,14 +25,14 @@
 Every mage needs a cauldron to make magic. Software developers is no different.
 Cauldron is a Neovim profile written entirely on lua, aiming to turn Neovim as close as possible to a full IDE for software development.
 
-## Requirement
+## Compatible
 
 - Neovim v0.9.4
 
 ## Plugins
 
 Cauldron rely on specific plugins to all sort of tasks, from fuzzy search, to language servers or plugin management.
-These are the ones used in this project. Plugins may be added or removed over the time, if better ones if found.
+These are the ones used in this project. Plugins may be added or removed over time, if better ones is found.
 
  - lazy.vim
  - nvim-treesitter
@@ -51,10 +51,34 @@ These are the ones used in this project. Plugins may be added or removed over th
 
 ## Usage
 
-Once you start nvim Lazy will start automatically installing all the mentioned plugins above, by treesitter language highlight installation.
-After that is finished you must execute Mason to install the language servers.
+Once you start nvim, Lazy will automatically install all mentioned plugins above.
 Currently Cauldron is configured to only install syntax highlight and language server for: C, C++, Python, Go, Rust and Lua.
-Feel free to change as you please to add or remove configurations for the languages you work with.
+Feel free to change as you please.
+
+## Installation
+
+Installation can be done using 'install.sh' tool. It allows you to update current cauldron installation from latest version.
+You can use this tool as follow.
+
+Default installation mode:
+
+	./install.sh # this will trigger default execution, where the latest version of cauldron will be pull from git and install/update.
+
+Include nvim installation mode:
+
+	./install.sh include-nvim # this will trigger the same installation flow as described earlier, including the installation of nvim.
+
+Backup installation mode:
+
+	./install.sh backup # this will trigger the same installation flow as described first, including a backup of current installation
+
+**Important:** If you use backup installation mode, a 'backup' foulder will be created in this directory.
+
+## Backup restoration
+
+In case you installed cauldron using backup mode, you can restore it using 'restore.sh' tool.
+
+	./restore.sh # this will clear current non-working installation and restore user latest configuration profile from 'backup' folder.
 
 ## Author
 - [Bruno Felipe](https://gitlab.com/bfelipe)

@@ -57,22 +57,10 @@ Feel free to change as you please.
 
 ## Installation
 
-Installation can be done using 'install.sh' tool. It allows you to update current cauldron installation from latest version.
-You can use this tool as follow.
+Installation can be done using 'install.sh' tool. It allows you to update current cauldron installation from latest version and backup current configurations.
+You can use this tool as follow:
 
-Default installation mode:
-
-	./install.sh # this will trigger default execution, where the latest version of cauldron will be pull from git and install/update.
-
-Include nvim installation mode:
-
-	./install.sh include-nvim # this will trigger the same installation flow as described earlier, including the installation of nvim.
-
-Backup installation mode:
-
-	./install.sh backup # this will trigger the same installation flow as described first, including a backup of current installation
-
-**Important:** If you use backup installation mode, a 'backup' foulder will be created in this directory.
+	./install.sh # this will trigger default execution, following different prompts based on your current installation.
 
 ## Backup restoration
 

@@ -17,6 +17,7 @@ install_nvim() {
         sudo mv squashfs-root /
         sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
         clear
+        source ~/.bashrc
         echo "- Nvim installed!"
     fi
 }

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMPATIBLE_VERSION="NVIM v0.9.4"
+COMPATIBLE_VERSION="NVIM v0.9.5"
 CURRENT_NVIM_VERSION=$(nvim --version | grep NVIM)
 
 echo "Starting..."

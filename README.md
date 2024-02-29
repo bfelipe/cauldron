@@ -27,7 +27,7 @@ Cauldron is a Neovim profile written entirely on lua, aiming to turn Neovim as c
 
 ## Compatible
 
-- Neovim v0.9.4
+- Neovim v0.9.5
 
 ## Plugins
 

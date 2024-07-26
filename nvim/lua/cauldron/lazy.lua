@@ -36,6 +36,6 @@ require('lazy').setup({
   require("cauldron/plug/undotree"),
 
   -- Theme
-  require("cauldron/plug/theme"),
+  -- require("cauldron/plug/theme"),
 
 })
